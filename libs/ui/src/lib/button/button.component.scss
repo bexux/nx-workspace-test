@@ -1,0 +1,7 @@
+// These styles will only affect THIS component
+.encapsulated {
+  border-radius: 5px;
+  &:hover {
+    background: brown;
+  }
+}
