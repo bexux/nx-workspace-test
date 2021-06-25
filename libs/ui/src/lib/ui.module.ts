@@ -7,5 +7,8 @@ import { ButtonComponent } from './button/button.component';
   declarations: [
     ButtonComponent
   ],
+  exports: [
+    ButtonComponent
+  ]
 })
 export class UiModule {}
